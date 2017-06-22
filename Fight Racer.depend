@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1458191581 source:c:\users\pratik kumar\documents\programs\fight racer\test.c
+	<SDL.h>
+	<SDL_ttf.h>
+
+1459225243 source:c:\users\pratik kumar\documents\programs\fight racer\main.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<stdio.h>
+	"CONSTANTS.h"
+
+1459235955 source:c:\users\pratik kumar\documents\programs\fight racer\startthegame.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"CONSTANTS.h"
+
+1458214914 c:\users\pratik kumar\documents\programs\fight racer\constants.h
+
+1458226283 source:c:\users\pratik kumar\documents\programs\fight racer\random.c
+	<time.h>
+
+1459317602 source:c:\program files\project\fight racer\main.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<stdio.h>
+	"CONSTANTS.h"
+
+1459317592 c:\program files\project\fight racer\constants.h
+
+1459317602 source:c:\program files\project\fight racer\random.c
+	<time.h>
+
+1459336016 source:c:\program files\project\fight racer\startthegame.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"CONSTANTS.h"
+
+1459317606 source:c:\program files\project\fight racer\test.c
+	<SDL.h>
+	<SDL_ttf.h>
+
