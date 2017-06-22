@@ -1,0 +1,1 @@
+Renaming main.c to MAIN.C causes linking problems with gcc, find out why.
