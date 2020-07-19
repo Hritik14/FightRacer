@@ -82,10 +82,10 @@ void createHuts(SDL_Renderer *renderer){
         tmpHut.rect.w = 50+random(window_width/6-50)-10;
         tmpHut.rect.h = 40+random(MAX_HUT_HEIGHT-40);
         short isBuilding = YES;
-        int cap_height;
+        int cap_height=0;
         if( tmpHut.rect.h < MAX_HUT_HEIGHT - 70){ //It's small as a hut, otherwise a building
             int i;
-            for(i=cap_height=0;i!=tmpHut.rect.w/2;i++,cap_height=i%2?cap_height+1:cap_height){
+            for(i=cap_height=0;i<=tmpHut.rect.w/2;i++,cap_height=i%2?cap_height+1:cap_height){
                 SDL_RenderDrawLine(renderer,tmpHut.rect.w/2-i,cap_height,tmpHut.rect.w/2+i,cap_height);
             }
             isBuilding = NO;
@@ -104,6 +104,7 @@ void createHuts(SDL_Renderer *renderer){
             tmpHut.rect.y =  MAX_HUT_HEIGHT * (i - MAX_HUTS_ALLOWED/2);
             tmpHut.rect.x = window_width - tmpHut.rect.w-2;
         }
+
 
         if(isBuilding){ //This is a building, so just turn on the lights.
             SDL_Point light = {baseMiddle.x  -20+random(20), baseMiddle.y};
